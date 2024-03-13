@@ -1,0 +1,52 @@
+html{
+    max-width: 1440px;
+    
+
+
+
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ }
+.container {
+    background-color:hsl(212, 45%, 89%); /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .card {
+    background-color: hsl(0, 0%, 100%); /* White background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px;
+    text-align: center;
+    max-width:300px; /* Maximum width of the card */
+  }
+  
+  .qr-code img {
+    margin-bottom: 10px; /* Space below the QR code */
+    margin-left: 5px;
+    margin-right: 5px;
+margin-top:5px;
+    width: 90%; /* Use 100% of the container's width */
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    object-fit: contain; /* The image will be scaled to maintain its aspect ratio while fitting within the element's content box */
+    border-radius: 15px; /* Adjust the px value to increase or decrease the roundness */
+  }
+  
+  
+  .title {
+    color: #000000; /* Black text color */
+    margin-bottom: 10px; /* Space below the title */
+    font-size: 15px; /* Font size for the title */
+    font-weight: 700;
+  }
+  
+  .subtitle {
+    color:hsl(220, 15%, 55%);/* Black text color */
+    font-size: 15px; /* Font size for the subtitle */
+    font-weight: 400;
+  }
+
+
